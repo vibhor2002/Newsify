@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import NewsItem from './NewsItem'
-import loading from './loading.gif'
+// import loading from './loading.gif'
 import Spinner from './Spinner';
 import PropTypes from 'prop-types'
 
