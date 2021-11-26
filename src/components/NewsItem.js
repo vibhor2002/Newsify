@@ -6,7 +6,7 @@ const NewsItem = (props) => {
         <div className="my-3">
             <div className="card">
                 <div>
-                    <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{ left: '81%', zIndex: 1 }}>{source}</span>
+                    <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{ left: '81%', zIndex: 1 }}>{source}</span>
                 </div>
                 <img src={!imageUrl ? "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRjKSkmlph6rw5yME1JeS7tLPztfuWegeS2A&usqp=CAU" : imageUrl} className="card-img-top" alt="..." />
                 <div className="card-body">
